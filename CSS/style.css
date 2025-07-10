@@ -1,15 +1,26 @@
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
 
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
 /*                                                       GENERAL                                                */
 /* Colors */
+
 .color-1 {
   color: rgba(78, 71, 255, 0.5);
+}
+
+.bg-primary {
+  color: rgb(78, 71, 255);
 }
 
 /* Button */
@@ -30,7 +41,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 900px;
   color: white;
 }
 
@@ -45,4 +56,24 @@ nav {
 .nav-title {
   color: rgba(78, 71, 255, 0.5);
   font-size: 34px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 160px 270px;
+}
+.banner-title {
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  font-size: 65px;
 }
