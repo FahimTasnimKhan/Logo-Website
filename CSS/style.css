@@ -12,16 +12,36 @@
   color: rgba(78, 71, 255, 0.5);
 }
 
+/* Button */
+.btn-primary {
+  background-color: rgba(78, 71, 255, 1);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  width: 132px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  /* For button simply specify the height */
+}
+
 header {
   background-image: url(../Assets/Hero-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 800px;
   color: white;
 }
 
 /* NAV BAR */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px 0px 150px;
+}
 .nav-title {
   color: rgba(78, 71, 255, 0.5);
   font-size: 34px;
