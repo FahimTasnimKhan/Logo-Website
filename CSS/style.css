@@ -1,0 +1,28 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/*                                                       GENERAL                                                */
+/* Colors */
+.color-1 {
+  color: rgba(78, 71, 255, 0.5);
+}
+
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+}
+
+/* NAV BAR */
+.nav-title {
+  color: rgba(78, 71, 255, 0.5);
+  font-size: 34px;
+}
