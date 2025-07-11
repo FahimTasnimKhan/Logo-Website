@@ -37,7 +37,23 @@ html {
   height: 48px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
   /* For button simply specify the height */
+}
+
+.btn-primary:hover {
+  background-color: rgb(6, 3, 111);
+  cursor: pointer;
+}
+
+.btn-md:hover {
+  background-color: rgb(6, 3, 111);
+  cursor: pointer;
+}
+
+.btn-large:hover {
+  background-color: rgb(6, 3, 111);
+  cursor: pointer;
 }
 
 .btn-md {
@@ -50,6 +66,7 @@ html {
   border: none;
   border-radius: 10px;
   /* For button simply specify the height */
+  cursor: pointer;
 }
 
 .btn-large {
@@ -62,6 +79,7 @@ html {
   border: none;
   border-radius: 10px;
   /* For button simply specify the height */
+  cursor: pointer;
 }
 
 main {
@@ -198,4 +216,48 @@ nav {
 .number {
   position: relative;
   top: -10px;
+}
+
+/* Form Section */
+.form-input {
+  /* width: 497px;
+  height: 70px; */
+  display: block;
+  border-radius: 10px;
+  border: 2px solid #d6dded;
+  padding: 20px 293px 20px 32px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+  padding: 20px 257px 85px 32px;
+  display: block;
+  border: 2px solid #d6dded;
+  border-radius: 10px;
+  padding-right: 293px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.form-button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  width: 497px;
+  height: 62px;
+  background-color: rgba(78, 71, 255, 0.5);
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
 }
