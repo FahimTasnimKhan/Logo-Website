@@ -1,3 +1,7 @@
+html {
+  background-color: rgba(78, 71, 255, 0.01);
+}
+
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -20,7 +24,7 @@
 }
 
 .bg-primary {
-  color: rgb(78, 71, 255);
+  background-color: rgb(78, 71, 255, 0.01);
 }
 
 /* Button */
@@ -34,6 +38,40 @@
   border: none;
   border-radius: 10px;
   /* For button simply specify the height */
+}
+
+.btn-large {
+  background-color: rgba(78, 71, 255, 1);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  width: 229px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  /* For button simply specify the height */
+}
+
+main {
+  /* max-width: 1140px;
+  margin: 0 auto; */
+  background-color: rgba(78, 71, 255, 0.01);
+}
+
+/* Titles */
+.section-title-sm {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.section-title-md {
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+.section-title-lg {
+  font-size: 97px;
+  font-weight: 700;
 }
 
 header {
@@ -72,8 +110,26 @@ nav {
   margin: 160px 270px;
 }
 .banner-title {
-  color: black;
+  color: #252432;
   text-align: center;
   font-weight: 700;
   font-size: 65px;
+}
+
+.action-slide {
+  padding: 116px 160px 116px 141px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-description {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  margin: 23px 0px;
+}
+
+.action-img {
+  border-radius: 48px;
 }
