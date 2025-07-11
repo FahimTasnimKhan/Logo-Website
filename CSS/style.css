@@ -24,7 +24,7 @@ html {
 }
 
 .bg-primary {
-  background-color: rgb(78, 71, 255, 0.01);
+  background-color: rgb(78, 71, 255, 0.05);
 }
 
 /* Button */
@@ -82,14 +82,12 @@ html {
   cursor: pointer;
 }
 
-main {
-  /* max-width: 1140px;
-  margin: 0 auto; */
-  background-color: rgba(78, 71, 255, 0.01);
-}
-
 .section-md {
   padding: 116px 160px 116px 141px;
+}
+
+.section-lg {
+  padding: 137px 149px 137px 151px;
 }
 
 /* Titles */
@@ -218,6 +216,11 @@ nav {
   top: -10px;
 }
 
+.testimonial-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 /* Form Section */
 .form-input {
   /* width: 497px;
@@ -260,4 +263,52 @@ label {
   border-radius: 10px;
   margin-top: 20px;
   border: none;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: rgb(6, 3, 111);
+  cursor: pointer;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-div {
+  max-width: 600px;
+}
+
+.footer-title {
+  font-size: 100px;
+  color: rgba(78, 71, 255, 0.5);
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  color: #8987a1;
+}
+
+.contact-list ul {
+  list-style: none;
+}
+
+ul a:visited {
+  list-style: none;
+  text-decoration: none;
+  color: #8987a1;
+}
+
+.contact-item {
+  list-style: none;
+  text-decoration: none;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
