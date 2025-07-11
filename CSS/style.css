@@ -40,6 +40,18 @@ html {
   /* For button simply specify the height */
 }
 
+.btn-md {
+  background-color: rgba(78, 71, 255, 1);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  width: 174px;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  /* For button simply specify the height */
+}
+
 .btn-large {
   background-color: rgba(78, 71, 255, 1);
   color: white;
@@ -56,6 +68,10 @@ main {
   /* max-width: 1140px;
   margin: 0 auto; */
   background-color: rgba(78, 71, 255, 0.01);
+}
+
+.section-md {
+  padding: 116px 160px 116px 141px;
 }
 
 /* Titles */
@@ -114,10 +130,11 @@ nav {
   text-align: center;
   font-weight: 700;
   font-size: 65px;
+  margin-bottom: 38px;
 }
 
+/* Action-Slide */
 .action-slide {
-  padding: 116px 160px 116px 141px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -132,4 +149,53 @@ nav {
 
 .action-img {
   border-radius: 48px;
+}
+
+/* User-section */
+
+.user-container {
+  padding: 50px 142px;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+}
+
+.user-main {
+  padding: 50px 142px;
+}
+
+.user-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-info-box {
+  display: flex;
+  align-items: center;
+}
+
+.user-info-primary {
+  font-weight: 700;
+  font-size: 80px;
+  color: rgba(78, 71, 255, 0.5);
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.user-info-secondary {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.number {
+  position: relative;
+  top: -10px;
 }
